@@ -13,7 +13,7 @@ export default function HomePage() {
       image: Aphidis,
       alt: "Aphidis Disease",
       description:
-        "Aphidis disease, also known as powdery mildew, is a fungal infection that commonly affects cotton plants, resulting in white powdery spots on the leaves, stems, and buds.",
+        "Aphids produce honeydew that can cause an additional infection by opportunistic fungi, indicated by the development of mold on the leaves. The honeydew also attracts ants.",
     },
     {
       image: ArmyWorm,
