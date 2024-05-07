@@ -4,6 +4,7 @@ import axios from "axios";
 import { FiLoader } from "react-icons/fi"; // Importing spinner from React Icons
 import NavBar from "../components/navbar";
 import Footer from "../components/footer";
+import Image from "next/image";
 
 const Predict = () => {
   const [prediction, setPrediction] = useState(null);
@@ -71,7 +72,7 @@ const Predict = () => {
         {fileUri && (
           <div className="mt-4 text-center">
             <h3 className="text-lg font-bold">Selected Image:</h3>
-            <img
+            <Image
               src={fileUri}
               alt="Selected Leaf"
               className="mt-2 rounded-lg mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
