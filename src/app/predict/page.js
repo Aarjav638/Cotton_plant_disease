@@ -27,7 +27,7 @@ const Predict = () => {
 
     try {
       const response = await axios.post(
-        "http://13.233.153.73:4000/predict",
+        "http://13.201.49.95:4000/predict",
         formData,
         {
           headers: {
