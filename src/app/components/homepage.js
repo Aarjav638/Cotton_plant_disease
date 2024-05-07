@@ -135,7 +135,7 @@ export default function HomePage() {
               style={{ maxWidth: "250px" }}
             >
               <p className="text-gray-600 text-center italic">
-                "{feedback.feedback}"
+                &quot;{feedback.feedback}&quot;
               </p>
               <p className="mt-2 text-black text-center font-bold">
                 {feedback.name}
