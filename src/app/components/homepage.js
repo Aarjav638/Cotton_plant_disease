@@ -98,7 +98,7 @@ export default function HomePage() {
         <li>Quick prediction results.</li>
       </ul>
       <h2 className="text-2xl font-bold text-white mb-4">How It Works</h2>
-      <p>
+      <p className="text-white">
         Simply navigate to the Predict Disease page, upload an image of a cotton
         leaf, and our machine learning model will predict if the leaf is healthy
         or affected by a disease.
@@ -106,7 +106,7 @@ export default function HomePage() {
       <h2 className="text-2xl font-bold text-white mb-4">
         Additional Information
       </h2>
-      <p>
+      <p className="text-white">
         Our platform employs state-of-the-art machine learning algorithms
         trained on extensive datasets to ensure accurate predictions. We
         continuously update our models to adapt to new strains of diseases and
