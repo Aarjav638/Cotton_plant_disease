@@ -27,7 +27,7 @@ const Predict = () => {
 
     try {
       const response = await axios.post(
-        "https://13.127.20.168:4000/predict",
+        "https://ewe-pretty-newt.ngrok-free.app/predict",
         formData,
         {
           headers: {
