@@ -83,34 +83,36 @@ export default function HomePage() {
 
   return (
     <div className="container mx-auto mt-8 p-4">
-      <h2 className="text-2xl font-bold mb-4">
+      <h2 className="text-2xl font-bold mb-4 text-white">
         About Cotton Leaf Disease Prediction
       </h2>
-      <p className="mb-4">
+      <p className="mb-4 text-white">
         Cotton leaf disease prediction is a web application that helps farmers
         and agronomists to predict diseases affecting cotton plants using
         machine learning models.
       </p>
-      <h2 className="text-2xl font-bold mb-4">Features</h2>
-      <ul className="list-disc pl-4 mb-4">
+      <h2 className="text-2xl font-bold mb-4 text-white">Features</h2>
+      <ul className="list-disc pl-4 mb-4 text-white">
         <li>Predict common diseases affecting cotton leaves.</li>
         <li>Easy-to-use interface for uploading images.</li>
         <li>Quick prediction results.</li>
       </ul>
-      <h2 className="text-2xl font-bold mb-4">How It Works</h2>
+      <h2 className="text-2xl font-bold text-white mb-4">How It Works</h2>
       <p>
         Simply navigate to the Predict Disease page, upload an image of a cotton
         leaf, and our machine learning model will predict if the leaf is healthy
         or affected by a disease.
       </p>
-      <h2 className="text-2xl font-bold mb-4">Additional Information</h2>
+      <h2 className="text-2xl font-bold text-white mb-4">
+        Additional Information
+      </h2>
       <p>
         Our platform employs state-of-the-art machine learning algorithms
         trained on extensive datasets to ensure accurate predictions. We
         continuously update our models to adapt to new strains of diseases and
         improve accuracy over time.
       </p>
-      <h2 className="text-2xl font-bold mb-4">Featured Diseases</h2>
+      <h2 className="text-2xl font-bold text-white mb-4">Featured Diseases</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         {diseaseData.map((disease, index) => (
           <div key={index} className="bg-white p-4 rounded-lg shadow-md">
@@ -125,7 +127,9 @@ export default function HomePage() {
           </div>
         ))}
       </div>
-      <h2 className="text-2xl font-bold mb-4 mt-8">Feedback & Testimonials</h2>
+      <h2 className="text-2xl font-bold mb-4 text-white mt-8">
+        Feedback & Testimonials
+      </h2>
       <div className="flex overflow-x-auto space-x-4 p-2">
         {[...feedbackData, ...feedbackData, ...feedbackData].map(
           (feedback, index) => (

@@ -46,11 +46,13 @@ const Predict = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-black">
       <NavBar />
       <div className="container mx-auto flex-grow mt-8 px-4">
-        <h2 className="text-2xl font-bold mb-4 text-center">Predict Disease</h2>
-        <p className="mb-4 text-center">
+        <h2 className="text-2xl font-bold mb-4 text-white text-center">
+          Predict Disease
+        </h2>
+        <p className="mb-4 text-center text-white">
           Upload an image of a cotton leaf below, and our machine learning model
           will predict if the leaf is healthy or affected by a disease.
         </p>
@@ -71,10 +73,12 @@ const Predict = () => {
         </div>
         {fileUri && (
           <div className="mt-4 text-center">
-            <h3 className="text-lg font-bold">Selected Image:</h3>
+            <h3 className="text-lg text-white font-bold">Selected Image:</h3>
             <Image
               src={fileUri}
               alt="Selected Leaf"
+              width={300}
+              height={300}
               className="mt-2 rounded-lg mx-auto max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl"
             />
           </div>
@@ -85,7 +89,9 @@ const Predict = () => {
           )}{" "}
           {/* Using FiLoader as spinner */}
           {!loading && prediction && (
-            <p className="font-bold">Disease Name : {prediction} </p>
+            <p className=" text-white font-bold">
+              Disease Name : {prediction}{" "}
+            </p>
           )}
         </div>
       </div>
