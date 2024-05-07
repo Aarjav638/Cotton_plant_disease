@@ -52,7 +52,7 @@ export default function HomePage() {
     {
       name: "John Doe",
       feedback:
-        "I've been using the Cotton Leaf Disease Prediction application for a while now, and it has been incredibly helpful in identifying diseases early and taking necessary actions to protect my crops. Highly recommended!",
+        "I have been using the Cotton Leaf Disease Prediction application for a while now, and it has been incredibly helpful in identifying diseases early and taking necessary actions to protect my crops. Highly recommended!",
     },
     {
       name: "Jane Smith",
@@ -67,12 +67,12 @@ export default function HomePage() {
     {
       name: "Emily Brown",
       feedback:
-        "I'm impressed by how easy it is to use this application. Uploading an image and getting instant predictions has never been simpler. The accuracy of the predictions is remarkable.",
+        "I am impressed by how easy it is to use this application. Uploading an image and getting instant predictions has never been simpler. The accuracy of the predictions is remarkable.",
     },
     {
       name: "David Wilson",
       feedback:
-        "This tool has been a game-changer for me. It not only predicts diseases accurately but also provides valuable insights and recommendations for disease management. It's like having a virtual agronomist!",
+        "This tool has been a game-changer for me. It not only predicts diseases accurately but also provides valuable insights and recommendations for disease management. It is like having a virtual agronomist!",
     },
     {
       name: "Sarah Thompson",
